@@ -31,15 +31,15 @@ img {
 }
 
 .text-blue {
-	color : #1383C5;
+	color : #1383C5 !important;
 }
 
 .text-gray {
-	color : #5C5C5C;
+	color : #5C5C5C !important;
 }
 
 .text-black {
-	color : #000000;
+	color : #000000 !important;
 }
 
 h1 {
@@ -102,6 +102,21 @@ h1 {
 	color: lightgrey
 }
 /*end of Section 1*/
+
+/* How can adzoco-help */
+.concept-section-heading {
+	font-size : 48px !important;
+}
+
+.concept-section-p {
+	font-size: 14px !important;
+}
+
+.concept-icon {
+	font-size: 108px;
+}
+
+/* How can adzoco help end*/
 
 /* Receive Payments Section */
 .receive-heading {
