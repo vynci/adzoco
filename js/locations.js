@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
 	var lastAddress = '';
+	var amount      = 300;
 	
 	$('#advertiser-listing').hide();
 
@@ -162,6 +163,9 @@ $(document).ready(function(){
 
 			if(lastAddress !== $('#geocomplete').val()){
 				lastAddress = $('#geocomplete').val();
+				amount      = Math.floor((Math.random() * 800) + 100);
+
+				$('#amount').text('$' + amount + 'k');
 				resetCount();
 			}
 

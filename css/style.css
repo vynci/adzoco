@@ -103,6 +103,13 @@ h1 {
 }
 /*end of Section 1*/
 
+/* Receive Payments Section */
+.receive-heading {
+	margin-bottom: 20px !important;
+}
+
+/* Receive Payments Section End */
+
 /* Explore Section */
 .explore-heading {
 	margin-bottom: 20px !important;
