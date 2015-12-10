@@ -1,0 +1,25 @@
+@charset "utf-8";
+body {
+	font-family: 'LatoWeb';
+}
+
+/**
+ *
+ * Background colors
+ *
+ */
+.bg-primary {
+	background-color : #2291D6;
+}
+
+.bg-default {
+	background-color : #EEF3F7;
+}
+
+.bg-white {
+	background-color : #FFFFFF;
+}
+
+.bg-success {
+	background-color : #67CB35;
+}
