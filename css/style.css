@@ -85,6 +85,9 @@ img {
 
 
 /* Signup Section */
+.signup-section h1 {
+	margin-top : 0;
+}
 .signup-btn {
 	font-size            : 32px;
 	height               : 72px;
