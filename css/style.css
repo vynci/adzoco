@@ -125,7 +125,7 @@ img {
 	margin-top: 10px;
 }
 
-@media (min-width: 320px) and (max-width: 730px) {
+@media (max-width: 730px) {
 	.signup-input {
 		width        : 100%;
 		margin-bottom: 20px;
