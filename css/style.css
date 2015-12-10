@@ -10,11 +10,30 @@ img {
 
 /**
  *
+ * Various styling
+ *
+ */
+.centered {
+	text-align : center;
+}
+
+.bold {
+	font-family: 'LatoWebBold';
+}
+
+.light {
+	font-family : 'LatoWebLight';
+}
+
+
+/**
+ *
  * Background colors
  *
  */
 .bg-primary {
 	background-color : #2291D6;
+	color : #FFFFFF;
 }
 
 .bg-default {
@@ -63,3 +82,42 @@ img {
 	color: lightgrey
 }
 /*end of Section 1*/
+
+
+/* Signup Section */
+.signup-btn {
+	font-size            : 32px;
+	height               : 72px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius   : 10px;
+	border-radius        : 10px;
+
+	padding-left: 20px;
+	padding-right: 20px;
+
+	width: 30%
+}
+
+.signup-input {
+	font-size            : 36px;
+	height               : 72px;
+	padding-left         : 20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius   : 10px;
+	border-radius        : 10px;
+
+	width: 68%;
+}
+
+.signup-form {
+	background-color : #1D83C1;
+	padding : 20px 20px;
+
+	-webkit-border-radius: 15px;
+	-moz-border-radius   : 15px;
+	border-radius        : 15px;
+
+	margin-top: 10px;
+}
+/* Signup Section End */
+
