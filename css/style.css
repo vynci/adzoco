@@ -69,7 +69,7 @@ h1 {
 }
 
 .section {
-	min-height: calc(100% - 1px);
+	/*min-height: calc(100% - 1px);*/
 }
 
 
@@ -82,7 +82,7 @@ h1 {
 }
 
 .navbar-trans-initial a{
-	color: lightgrey;
+	color: white;
 }
 /*End of Navigation Bar*/
 
@@ -215,4 +215,3 @@ h1 {
 	}
 }
 /* Signup Section End */
-
