@@ -91,11 +91,15 @@ h1 {
 .navbar-trans-initial a{
 	color: white;
 }
+
+.navbar-trans-initial a:hover{
+	color: #EEF3F7;
+	background: transparent !important;
+}
 /*End of Navigation Bar*/
 
 
 
-/*Section 1*/
 #section1 {
 	color : white;
 }
@@ -108,7 +112,29 @@ h1 {
 .section1-header h3{
 	color: lightgrey
 }
+
+.section1-symbol-center {
+	padding-top: 5%;
+	text-align: center;
+}
 /*end of Section 1*/
+
+
+/*Income Section*/
+.income-section-procedure{
+	padding-top: 3%;
+}
+
+#howItWorksModal {
+	padding-top: 8%;
+}
+
+.video-loader {
+	cursor: pointer;
+}
+
+
+/* End of Income Section * /
 
 /* How can adzoco-help */
 .concept-section-heading {
