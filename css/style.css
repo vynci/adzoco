@@ -8,6 +8,9 @@ img {
 	width: 100%;
 }
 
+p {
+	font-size: 16px;
+}
 /**
  *
  * Various styling
@@ -46,6 +49,14 @@ img {
 	color : #67CB35;
 }
 
+.text-white {
+	color : #FFFFFF !important;
+}
+
+.text-dark-blue {
+	color : #183767 !important;
+}
+
 h1 {
 	font-size : 48px;
 }
@@ -74,6 +85,10 @@ h1 {
 
 .bg-orange {
 	background-color : #FFBB22;
+}
+
+.bg-light-blue {
+	background-color: #5AB3C1;
 }
 
 .section {
@@ -149,11 +164,21 @@ h1 {
 	font-size: 108px;
 }
 
+.concept-section {
+	background: #59B2C0;
+
+	background-position: center;
+}
+
 /* How can adzoco help end*/
 
 /* Receive Payments Section */
 .receive-heading {
 	margin-bottom: 20px !important;
+}
+
+.receive-section {
+	margin-bottom : 50px !important;
 }
 
 /* Receive Payments Section End */
