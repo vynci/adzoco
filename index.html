@@ -27,6 +27,7 @@
     <![endif]-->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
+    <link href="css/location.css" rel="stylesheet">
 </head>
 
 <body>
@@ -97,17 +98,21 @@
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-8">
                     <div class="row">
-                        <div class="col-xs-12 col-sm-6">
-                          <h1 class="light text-blue">List your window</h1>
+                        <div class="col-xs-12 col-sm-4 col-sm-offset-2">
+                            <img src="images/how-it-works-1.png" alt="List your windows">
+                            <h3 class="light text-blue">1. List your Windows</h3>
                         </div>
-                        <div class="col-xs-12 col-sm-6">
-                            <h1 class="light text-blue">Accept bid offers</h1>
+                        <div class="col-xs-12 col-sm-4 col-sm-offset-2">
+                            <img src="images/how-it-works-2.png" alt="Accept bid offers">
+                            <h3 class="light text-blue">2. Receive Advertisers Offer</h3>
                         </div>
-                        <div class="col-xs-12 col-sm-6">
-                            <h1 class="light text-blue">Install the poster</h1>
+                        <div class="col-xs-12 col-sm-4 col-sm-offset-2">
+                            <img src="images/how-it-works-3.png" alt="Banner is shipped to you.">
+                            <h3 class="light text-blue">3. Banner is Shipped to you.</h3>
                         </div>
-                        <div class="col-xs-12 col-sm-6">
-                            <h1 class="light text-blue">Relax while making money</h1>
+                        <div class="col-xs-12 col-sm-4 col-sm-offset-2">
+                            <img src="images/how-it-works-4.png" alt="Install the banner.">
+                            <h3 class="light text-blue">4. Install the Banner in your Window and earn monthly cash.</h3>
                         </div>
                     </div>
                 </div>
@@ -163,64 +168,58 @@
             </div>
         </section>
         <section class="container explore-section">
-            <div class="row">
-                <h1 class="text-blue explore-heading light">Find out how many advertisers are near you.</h1>
-                <div class="col-xs-12 col-sm-12 col-md-12 no-gutter-container">
-                    <input type="text"
-                        id="geocomplete"
-                        class="explore-input col-xs-12 col-sm-8 col-md-8 text-gray"
-                        placeholder="Type in your address"
-                        autocomplete="off">
+            <div class="row no-gutter">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="google-map-heading">
+                        <h2 class="centered" style="color: white">Find out how many advertisers are near you.</h2>
+                        <div class="google-search">
+                            <form class="centered">
+                                <div class="input-group col-xs-12 col-sm-6 col-sm-offset-3 google-search-form">
+                                    <input type="text"
+                                        id="geocomplete"
+                                        class="form-control goole-search-input input-lg"
+                                        placeholder="Type in your address"
+                                        autocomplete="off"
+                                        size="30">
 
-                    <button class="btn btn-success bg-success explore-btn col-xs-12 col-sm-4 col-md-4"
-                        type="button">Search</button>
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-primary btn-lg input-lg map-search-btn"
+                                            type="button">Search</button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="col-xs-12 map-canvas-container">
+                    <div class="map_canvas"></div>
+                </div>
+                <div class="col-xs-12 google-map-footer">
+                    <h3 class="centered" style="color: #FFBB22">Available advertisers in your area</h3>
+                </div>
+                <div class="col-xs-12 advertiser-listing">
+                    <div class="col-xs-12 col-sm-12" id="advertiser-listing"></div>
                 </div>
 
-                <div class="col-xs-12 col-sm-12 col-md-12 no-gutter-container">
-                    <div class="col-xs-12 col-sm-8 col-md-8 explore-list no-gutter-container no-gutter">
-                        <h2 class="centered text-blue light">Available advertisers in your area</h2>
-                        <div id="advertiser-listing"></div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4 col-md-4 canvas-container no-gutter-container">
-                        <div class="map-canvas"></div>
-
-                        <h3 class="text-blue">Amount already spent in your area.</h3>
-                        <h1 class="text-gray text-bold centered" id="amount">$300k</h1>
-                    </div>
-                </div>
             </div>
         </section>
         <section class="jumbotron bg-primary signup-section">
             <div class="container">
                 <div class="row centered">
-                    <h1 class="bold">Ready to start earning?<br class="visible-xs" /> Signup Now!</h1>
-
-                    <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 signup-form">
+                    <h1 class="bold">We can help advertise your window space.</h1>
+                    <h2>Join us for Free.</h2>
+                    <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 signup-form">
                             <input type="email"
                                 class="form-control signup-input light pull-left"
                                 id="userEmail"
-                                placeholder="What's your email address?">
+                                placeholder="Enter your email...">
 
-                            <button class="btn btn-success bg-success signup-btn pull-right bold"
-                                type="button">CONTINUE</button>
+                            <button class="btn bg-orange signup-btn pull-right"
+                                type="button">Continue</button>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="container">
-            <div class="row">
-            Talk to us:
-
-info@adzoco.com
-Tel: (+1) 800-298-1823
-
-Where we’re located:
-
-404 45th avenue #3,
-San Francisco CA 94121
-
-Lahug, Cebu City
-Philippines
             </div>
         </section>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

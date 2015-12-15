@@ -72,6 +72,10 @@ h1 {
 	background-color : #67CB35;
 }
 
+.bg-orange {
+	background-color : #FFBB22;
+}
+
 .section {
 	/*min-height: calc(100% - 1px);*/
 }
@@ -188,11 +192,11 @@ h1 {
 }
 
 .signup-btn {
-	font-size            : 36px;
-	height               : 72px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius   : 10px;
-	border-radius        : 10px;
+	font-size            : 24px;
+	height               : 48px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius   : 0px;
+	border-radius        : 0px;
 
 	padding-left : 20px;
 	padding-right: 20px;
@@ -201,23 +205,18 @@ h1 {
 }
 
 .signup-input {
-	font-size            : 36px;
-	height               : 72px;
+	font-size            : 24px;
+	height               : 48px;
 	padding-left         : 20px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius   : 10px;
-	border-radius        : 10px;
+	-webkit-border-radius: 0;
+	-moz-border-radius   : 0;
+	border-radius        : 0;
 
 	width: 68%;
 }
 
 .signup-form {
-	background-color: #1D83C1;
 	padding         : 20px 20px;
-
-	-webkit-border-radius: 15px;
-	-moz-border-radius   : 15px;
-	border-radius        : 15px;
 
 	margin-top: 10px;
 }

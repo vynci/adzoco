@@ -1,7 +1,6 @@
 $(document).ready(function(){
 
 	var lastAddress = '';
-	var amount      = 300;
 	
 	$('#advertiser-listing').hide();
 
@@ -118,10 +117,14 @@ $(document).ready(function(){
 		places.forEach(function(item){
 			item.count = item.count ? item.count : Math.floor((Math.random() * 30) + 1);
 
-			html += '<div class="col-xs-12 col-sm-6 col-md-6 no-gutter-container centered listing-container">';
+			html += '<div class="col-xs-12 col-sm-3 col-md-3 no-gutter-container">';
+			html += '	<div class="col-xs-4 listing-icon-container">';
 			html += '		<i class="'+ item.icon +' listing-icon"></i>';
-			html += '		<span class="listing-count text-gray">' + item.count + '</span>';
+			html += '	</div>';
+			html += '	<div class="col-xs-7">';
 			html += '		<h3 class="listing-title">' + item.category + '</h3>';
+			html += '		<h2 class="listing-count flipInX">' + item.count + '</h2>';
+			html += '	</div>';
 			html += '</div>';
 		});
 
@@ -141,7 +144,7 @@ $(document).ready(function(){
 	}    
 
 	var options = {
-		map     : ".map-canvas",
+		map     : ".map_canvas",
 		location: "SF"
 	};
 
@@ -163,9 +166,6 @@ $(document).ready(function(){
 
 			if(lastAddress !== $('#geocomplete').val()){
 				lastAddress = $('#geocomplete').val();
-				amount      = Math.floor((Math.random() * 800) + 100);
-
-				$('#amount').text('$' + amount + 'k');
 				resetCount();
 			}
 
@@ -173,7 +173,7 @@ $(document).ready(function(){
 		});
 
 	// Trigger geocoding request.
-	$(".explore-btn").click(function(){
+	$(".map-search-btn").click(function(){
 		$("#geocomplete").trigger("geocode");
 	});
 });
