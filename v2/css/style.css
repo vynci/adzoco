@@ -112,6 +112,12 @@ p {
 .section1-header h3{
 	color: lightgrey
 }
+
+.section1-symbol-center {
+	padding-top: 5%;
+	text-align: center;
+}
+
 /*end of Section 1*/
 
 /*Income Section*/
