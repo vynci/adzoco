@@ -50,12 +50,20 @@ img {
 	color : #67CB35;
 }
 
+.text-white {
+	color : #FFFFFF !important;
+}
+
 h1 {
 	font-size : 48px;
 }
 
 p {
 	font-size: 16px !important;
+}
+
+.no-bottom-margin {
+	margin-bottom: 0 !important;
 }
 
 /**
@@ -78,6 +86,10 @@ p {
 
 .bg-success {
 	background-color : #67CB35;
+}
+
+.bg-dark {
+	background-color: #1D83C1;
 }
 
 .section {
