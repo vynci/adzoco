@@ -220,13 +220,16 @@
                     <h1 class="bold">Ready to start earning?<br class="visible-xs" /> Signup Now!</h1>
 
                     <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 signup-form">
-                            <input type="email"
+                            <input required type="email"
                                 class="form-control signup-input light pull-left"
                                 id="userEmail"
                                 placeholder="What's your email address?">
 
-                            <button class="btn btn-success bg-success signup-btn pull-right bold"
+                            <button id="continueButton" class="btn btn-success bg-success signup-btn pull-right bold"
                                 type="button">CONTINUE</button>
+                    </div>
+                    <div id="invalidEmail" class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+                      <h3 style="color: red;">Invalid Email</h3>
                     </div>
                 </div>
             </div>
@@ -262,6 +265,7 @@
         <script src="js/knuth-shuffle.js"></script>
         <script src="js/jquery.geocomplete.js"></script>
         <script type="text/javascript" src="js/locations.js"></script>
+        <script src="js/main.js"></script>
     </body>
 
 </html>
