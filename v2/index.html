@@ -218,16 +218,18 @@
             <div class="container">
                 <div class="row centered">
                     <h1 class="bold">Ready to start earning?<br class="visible-xs" /> Signup Now!</h1>
+                    <form id="getStartedForm">
+                      <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 signup-form">
+                        <input required type="email"
+                        class="form-control signup-input light pull-left"
+                        id="userEmail"
+                        placeholder="What's your email address?">
 
-                    <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 signup-form">
-                            <input required type="email"
-                                class="form-control signup-input light pull-left"
-                                id="userEmail"
-                                placeholder="What's your email address?">
+                        <input id="continueButton" class="btn btn-success bg-success signup-btn pull-right bold"
+                        type="submit" value="CONTINUE"></button>
+                      </div>
+                    </form>
 
-                            <button id="continueButton" class="btn btn-success bg-success signup-btn pull-right bold"
-                                type="button">CONTINUE</button>
-                    </div>
                     <div id="invalidEmail" class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
                       <h3 style="color: red;">Invalid Email</h3>
                     </div>
