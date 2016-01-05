@@ -115,6 +115,11 @@ h1 {
 
 
 
+#section1-mobile {
+	min-height: calc(100% - 1px);
+	padding-top: 20%;
+}
+
 #section1 {
 	color : white;
 }
@@ -124,6 +129,11 @@ h1 {
 	padding-bottom: 10%;
 }
 
+.section1-img{
+	padding-left:10%;
+	padding-right:10%;
+}
+
 .section1-header h3{
 	color: lightgrey
 }
@@ -131,6 +141,9 @@ h1 {
 .section1-symbol-center {
 	padding-top: 5%;
 	text-align: center;
+}
+.section1-symbol {
+	font-size: 17em;
 }
 /*end of Section 1*/
 
